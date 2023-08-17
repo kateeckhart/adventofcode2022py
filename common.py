@@ -1,3 +1,11 @@
+def sgn(n):
+    if n < 0:
+        return -1
+    elif n == 0:
+        return 0
+    else:
+        return 1
+
 def read_input(day):
     with open(f'input/day{day}.txt', mode='rt', encoding='UTF-8') as f:
         return f.read().strip()

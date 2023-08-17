@@ -2,14 +2,6 @@
 
 from common import *
 
-def sgn(n):
-    if n < 0:
-        return -1
-    elif n == 0:
-        return 0
-    else:
-        return 1
-
 def calc_ans(input, knot_count):
     rope_xs = [0 for i in range(0, knot_count)]
     rope_ys = [0 for i in range(0, knot_count)]
